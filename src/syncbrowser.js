@@ -114,12 +114,6 @@
                     }
                 });
 
-                /*$(window).on('load', function() {
-                 //todo : finish here
-                 if(master) {
-                 socket.emit('event', {namespace: namespace, event: {type: 'reload'}});
-                 }
-                 });*/
 
                 // we react to cmd+r / ctrl+r keyboard events to reload on multiple browsers
                 Mousetrap.bind(['command+r', 'ctrl+r'], function(e){

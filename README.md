@@ -2,6 +2,13 @@
 
 Syncbrowser is a quick and dirty piece of code that enables to browse simultaneously the same website on different browser (mobile, tablet, desktop).
 
+## compatibility ...
+
+Recent browsers only, for the time being it has been tested with last versions of chrome, firefox, safari ios 7, android 4.3
+It requires websocket.
+
+
+
 ## Quick start
 
 Three quick start options are available:
