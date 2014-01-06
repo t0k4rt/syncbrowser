@@ -1,0 +1,28 @@
+{
+    "name": "syncbrowser",
+    "description": "sync your browsers",
+    "version": "0.0.1",
+    "keywords": [
+        "synchronized",
+        "browser"
+    ],
+    "homepage": "http://getbootstrap.com",
+    "author": "Alexandre Assouad",
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/twbs/bootstrap/blob/master/LICENSE"
+        }
+    ],
+    "dependencies": {
+        "express": "~3.0",
+        "socket.io": "~0.9"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.2",
+        "grunt-contrib-concat": "~0.3.0",
+        "grunt-contrib-jshint": "~0.6.3",
+        "grunt-contrib-uglify": "~0.2.2",
+        "grunt-contrib-copy": "~0.5.0"
+    }
+}
