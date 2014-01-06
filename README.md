@@ -15,11 +15,12 @@ start server :
 
 
 on your frontend :
-<script src="http://your-node-server-adress/socket.io/socket.io.js"></script>
+
+`<script src="http://your-node-server-adress/socket.io/socket.io.js"></script>
 <script src="http://your-node-server-adress/syncbrowser.min.js"></script>
 <script>
         Syncbrowser.sync('http://your-node-server-adress', 'namespace');
-</script>
+</script>`
 
 Use a namespace if you sync multiple website on the same server.
 
