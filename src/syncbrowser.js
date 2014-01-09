@@ -1,17 +1,22 @@
 (function(window, document, Mousetrap, $, undefined) {
     var Syncbrowser = {
-        sync : function (address, namespace) {
+        sync : function (host, namespace) {
 
 
-            if(typeof address == 'undefined') {
-                address = 'http://localhost';
+            if(typeof host == 'undefined') {
+                host = 'http://localhost';
             }
 
             if(typeof namespace == 'undefined') {
                 namespace = 'syncbrowser';
             }
 
-            var socket = io.connect(address, {port: 80});
+            var socket = io.connect(
+                host,
+                {
+                    port: 80
+                }
+            );
             var master;
 
 
