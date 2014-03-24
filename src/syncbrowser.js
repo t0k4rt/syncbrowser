@@ -11,12 +11,7 @@
                 namespace = 'syncbrowser';
             }
 
-            var socket = io.connect(
-                host,
-                {
-                    port: 80
-                }
-            );
+            var socket = io.connect(host);
             var master;
 
 

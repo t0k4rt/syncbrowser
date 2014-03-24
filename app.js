@@ -7,6 +7,7 @@ var app = express()
     , io = require('socket.io').listen(server);
 
 server.listen(port);
+console.log('listening on port', port);
 
 app.use(express.static(__dirname + '/public'));
 
